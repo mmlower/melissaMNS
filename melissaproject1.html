@@ -1,0 +1,19 @@
+<head>
+  <title>meteornightschool</title>
+</head>
+
+<body>
+  <h1 class="melissa">Welcome, Melissa!</h1>
+
+  {{> hello}}
+  {{> goodbye}}
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You have pressed that button {{counter}} times.</p>
+</template>
+
+<template name="goodbye">
+  <p>Goodbye!</p>
+</template>
